@@ -25,6 +25,8 @@
 \usepackage{pdfpages}       % Possibilita a inserção de páginas em pdf
 \usepackage{amsmath}        % Inclui funções adicionais no ambiente matemático \eqref{•} \dfrac{•}{•}
 \usepackage{amssymb} 		% Símbolos adicionais no documento \mathbb{R}
+\usepackage{amsfonts}
+\usepackage{amsthm}
 \usepackage{mathrsfs}       % Símbolos da transformadas de Laplace e Fourier \mathscr{•}
 \usepackage{float}			% Possibila posicionar tabelas e figuras em uma posição específica [H]
 \usepackage[numbers]{natbib}% Inclui mais possibilidades de citações \citep{•}
@@ -107,18 +109,18 @@
 				FACULDADE DE TECNOLOGIA\\
 				ENGENHARIA DA COMPUTAÇÃO}
 \newcommand{\titulo}{
-				TÍTULO AQUI}
+				Verificação Formal de Redes Neurais usando o ESBMC-GPU}
 \newcommand{\apresentacao}{
 				Monografia apresentada à Coordenação do Curso
 				de Engenharia da Computação da Universidade Federal
 				do Amazonas, como parte dos requisitos necessários
 				à obtenção do título de Engenheiro de Computação.}
 \newcommand{\autor}{
-				AUTOR AQUI}
+				Luiz Henrique Coelho Sena}
 \newcommand{\local}{
 				MANAUS-AM\\ANO}
 \newcommand{\orientador}{
-				ORIENTADOR AQUI}
+				Iury Valente Bessa}
 
 %-----------------------------------------------------
 %\usepackage{ulem}
@@ -152,14 +154,13 @@
 \include{parte2_textuais/cap6_conclusao}
 
 % FOI RENOMEADO O ARQUIVO: main_tcc.bbl para main_tcc.bbl_OLD
-%\bibliographystyle{IEEEtranN} % Ordem de citação
-\bibliographystyle{humannat} % Ordem alfabética
+\bibliographystyle{IEEEtranN} % Ordem de citação
+%\bibliographystyle{humannat} % Ordem alfabética
 %\bibliographystyle{dinat}    % Ordem alfabética
 %\bibliographystyle{plainnat} % Ordem alfabética
 %\bibliographystyle{apa}      % Ordem alfabética
 
 \bibliography{referencias}
-
 \appendix
 
 %\include{parte3_pos-textuais/apendice_a_simulador}
